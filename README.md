@@ -7,8 +7,9 @@ This is particularly useful for anybody currently taking a class in Java.
 
 ---
 
-There is also a Bash script for initializing a project in a way that is useful
-for unit testing.
+There are also scripts for initializing a project in a way that is useful for
+unit testing.
+The Bash and Python versions are identical.
 In the generated main class, place your application code in `run` and read and
 write input/output using the member variables `in` and `out`.
 The generated unit test contains the necessary tooling to run your program with
