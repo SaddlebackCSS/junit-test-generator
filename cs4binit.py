@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-import sys
-import os
+import sys, os
 
-if len(sys.argv) < 2:
-    print("usage: {0} project-name".format(sys.argv[0]), file=sys.stderr)
+if len(sys.argv) != 2:
+    print("usage: python {0} project-name".format(sys.argv[0]), file=sys.stderr)
     exit(1)
 
 project=sys.argv[1]
